@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Примерна HTML страница</title>
+</head>
+
+<body>
+    <!-- Заглавия -->
+    <header>
+        <h1>Добре дошли в моята уеб страница</h1>
+    </header>
+
+    <!-- Параграф и хипервръзка -->
+    <section>
+        <p>Това е пример за обикновен <strong>параграф</strong> с <em>подчертан</em> текст. Можете да научите повече за
+            HTML, като посетите
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>.
+        </p>
+    </section>
+
+    <!-- Неподреден списък -->
+    <section>
+        <h2>Неподреден списък</h2>
+        <ul>
+            <li>Първи елемент</li>
+            <li>Втори елемент</li>
+            <li>Трети елемент</li>
+        </ul>
+    </section>
+
+    <!-- Подреден списък -->
+    <section>
+        <h2>Подреден списък</h2>
+        <ol>
+            <li>Първи елемент</li>
+            <li>Втори елемент</li>
+            <li>Трети елемент</li>
+        </ol>
+    </section>
+
+    <!-- Изображение -->
+    <section>
+        <h2>Изображение</h2>
+        <img src="https://via.placeholder.com/150" alt="Примерно изображение">
+    </section>
+
+    <!-- Бутон -->
+    <section>
+        <h2>Бутон</h2>
+        <button onclick="alert('Бутонът беше натиснат!')">Кликнете ме</button>
+    </section>
+
+    <!-- Формуляри и полета за въвеждане -->
+    <section>
+        <h2>Форма за контакт</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Вашето име:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Вашият имейл:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Изпрати</button>
+        </form>
+    </section>
+
+    <!-- Хоризонтална линия и празни редове -->
+    <hr>
+    <p>Този текст е под линията.<br>Още един ред текст.</p>
+
+    <!-- Край на документа -->
+    <footer>
+        <p>Авторски права © 2024</p>
+    </footer>
+</body>
+
+</html>
