@@ -1,6 +1,6 @@
 # FMI Frontend - HTML
 
-This project is a HTMl course by SAP Labs Bulgaria for FMI 2024. It is a simple presentation created using [reveal.js](https://revealjs.com/).
+This project is a HTML course by SAP Labs Bulgaria for FMI 2024. It is a simple presentation created using [reveal.js](https://revealjs.com/).
 
 ## Project Structure
 
